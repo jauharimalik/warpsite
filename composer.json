@@ -1,0 +1,18 @@
+{
+    "name": "jauharimalik/warpsite",
+    "description": "Micro Tools untuk pengembangan pribadi, sambil dipakai belajar untuk mengembangkan php packages sendiri",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jauharimalik",
+            "email": "jauharimalikupil@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+       "psr-4": {
+           "jauharimalik\\warpsite\\": "src/"
+        } 
+    }	
+}
