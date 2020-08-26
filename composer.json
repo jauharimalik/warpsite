@@ -6,9 +6,12 @@
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
     },
-    "require": {
-        "jauharimalik/warpsite": "src/"
-    },    
+    "require": {},
+	"autoload": {
+       "psr-4": {
+           "jauharimalik\\warpsite\\": "src/"
+        } 
+    },	    
     "authors":[
         {
             "name": "jauharimalik",
