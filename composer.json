@@ -3,16 +3,17 @@
     "description": "Micro Tools untuk pengembangan pribadi, sambil dipakai belajar untuk mengembangkan php packages sendiri",
     "type": "library",
     "license": "MIT",
-    "authors": [
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "require": {
+        "jauharimalik/warpsite": "src/"
+    },    
+    "authors":[
         {
             "name": "jauharimalik",
             "email": "jauharimalikupil@gmail.com"
         }
     ],
-    "require": {},
-	"autoload": {
-       "psr-4": {
-           "jauharimalik\\warpsite\\": "src/"
-        } 
-    }	
+    "minimum-stability": "dev"	
 }
